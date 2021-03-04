@@ -156,9 +156,8 @@ def on_message(data):
 
 		sub_client.send_message(message=(f"Айди данного чата: {chatId}"), chatId=chatId, replyTo=id)
 
-	if content[0] == "!saytest":
-
-		sub_client.send_message(message=(f"{data.message.author}"), chatId=chatId)
+	
+	
 
 	if content[0] == "Привет":
 
