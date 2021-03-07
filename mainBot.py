@@ -1,3 +1,4 @@
+# If you can use bot after public
 import amino
 import random
 import datetime
